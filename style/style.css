@@ -6,14 +6,17 @@
     position: fixed;
     z-index: 99;
 }
+
 .pop-message-remove {
     transform: translateX(100vw);
 }
-.font-birthday p{
+
+.font-birthday p {
     font-size: 40px;
     font-family: 'Happy Monkey', cursive;
     font-weight: 600;
 }
+
 .message {
     display: flex;
     flex-direction: column;
@@ -25,39 +28,58 @@
     box-shadow: 5px 5px rgb(5, 16, 19);
 
 }
-.font-japan p{
+
+.font-japan p {
     font-size: 30px;
     font-weight: 600;
 }
+
 p {
     margin: 0px;
     padding: 0px;
 }
+
 .button-open {
     font-family: 'Happy Monkey', cursive;
     font-size: 18px;
     font-weight: 600;
     color: #212529;
 }
+
 .message-first {
     position: relative;
     height: 100vh;
     overflow-x: hidden;
 }
+
 .img-witch {
     position: static;
 }
+
 .img-dragon {
     position: relative;
 }
+
 .hero {
     position: relative;
 }
+
 .font-lobster {
     font-family: 'Lobster Two', cursive;
     font-size: 70px;
     font-weight: 700;
 }
+
 .font-poppins {
     font-family: 'Poppins', sans-serif;
 }
+
+p {
+    text-align: justify;
+}
+
+.form-whatsapp {
+    margin-top: 30px;
+}
+
+@keyframes animation-letter {}
